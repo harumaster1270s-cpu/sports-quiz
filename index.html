@@ -115,7 +115,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;background:radial-gradi
   <!-- HOME -->
   <div class="screen active" id="screen-home">
     <div class="home-hero">
-      <span class="trophy"> </span>
+      <span class="trophy">&#127942;</span>
       <div class="app-title">SPORTS<span>QUIZ</span></div>
       <div class="app-sub">スポーツ脳トレクイズ ／ 全10ステージ・100問</div>
     </div>
@@ -156,9 +156,9 @@ body::before{content:'';position:fixed;inset:0;z-index:0;background:radial-gradi
         </div>
       </div>
       <div class="stars-row">
-        <div class="big-star" id="star0">?</div>
-        <div class="big-star" id="star1">?</div>
-        <div class="big-star" id="star2">?</div>
+        <div class="big-star" id="star0">&#11088;</div>
+        <div class="big-star" id="star1">&#11088;</div>
+        <div class="big-star" id="star2">&#11088;</div>
       </div>
       <div class="clear-btns">
         <button class="btn-primary" onclick="goHome()">ステージ一覧へ</button>
@@ -173,7 +173,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;background:radial-gradi
 <script>
 const STAGES = [
   {
-    id:'s1',title:'サッカー基礎',emoji:'?',diff:1,
+    id:'s1',title:'サッカー基礎',emoji:'&#9917;',diff:1,
     questions:[
       {q:'サッカーの1チームの選手数は何人？',c:['9人','10人','11人','12人'],a:2,e:'1チーム11人。フィールドプレーヤー10人＋ゴールキーパー1人で構成されます。'},
       {q:'FIFAワールドカップは何年に1度開催される？',c:['2年','3年','4年','5年'],a:2,e:'ワールドカップは4年に1度。1930年ウルグアイで第1回大会が開催されました。'},
@@ -188,7 +188,7 @@ const STAGES = [
     ]
   },
   {
-    id:'s2',title:'野球基礎',emoji:'?',diff:1,
+    id:'s2',title:'野球基礎',emoji:'&#9918;',diff:1,
     questions:[
       {q:'野球でスリーアウトになると何が起こる？',c:['試合終了','攻守交代','ペナルティ','得点'],a:1,e:'スリーアウトで攻守交代。3アウトを1イニングとし、9イニングで1試合です。'},
       {q:'野球の塁（ベース）は全部で何個？',c:['3個','4個','5個','6個'],a:1,e:'1塁・2塁・3塁・本塁（ホームベース）の計4つのベースがあります。'},
@@ -203,7 +203,7 @@ const STAGES = [
     ]
   },
   {
-    id:'s3',title:'バスケットボール',emoji:' ',diff:2,
+    id:'s3',title:'バスケットボール',emoji:'&#127936;',diff:2,
     questions:[
       {q:'バスケットボールのコート上の1チームの人数は？',c:['4人','5人','6人','7人'],a:1,e:'1チーム5人でプレー。ベンチには最大7人の控えがいます。'},
       {q:'NBAのゴールの高さは地面から何フィート？',c:['8フィート','9フィート','10フィート','11フィート'],a:2,e:'バスケのゴールの高さは10フィート（約3.05m）と定められています。'},
@@ -218,7 +218,7 @@ const STAGES = [
     ]
   },
   {
-    id:'s4',title:'テニス・卓球',emoji:' ',diff:2,
+    id:'s4',title:'テニス・卓球',emoji:'&#127934;',diff:2,
     questions:[
       {q:'テニスでサービスを2回連続ミスすると？',c:['警告','ダブルフォルト（失点）','サービスやり直し','ポイント×2'],a:1,e:'ダブルフォルトとなり相手に1ポイント入ります。'},
       {q:'テニスの四大大会（グランドスラム）に含まれないのは？',c:['全豪オープン','ジャパンオープン','ウィンブルドン','全米オープン'],a:1,e:'グランドスラムは全豪・全仏・ウィンブルドン・全米の4大会です。'},
@@ -233,7 +233,7 @@ const STAGES = [
     ]
   },
   {
-    id:'s5',title:'オリンピック',emoji:' ',diff:2,
+    id:'s5',title:'オリンピック',emoji:'&#127941;',diff:2,
     questions:[
       {q:'近代オリンピックが初めて開催された年と都市は？',c:['1892年ロンドン','1896年アテネ','1900年パリ','1904年セントルイス'],a:1,e:'1896年にギリシャのアテネで第1回大会が開催されました。'},
       {q:'五輪のカラーで「青」が表す大陸は？',c:['ヨーロッパ','アジア','アフリカ','オセアニア'],a:0,e:'青はヨーロッパ。黄色はアジア、黒はアフリカ、緑はオセアニア、赤はアメリカです。'},
@@ -248,7 +248,7 @@ const STAGES = [
     ]
   },
   {
-    id:'s6',title:'スポーツ総合',emoji:' ',diff:2,
+    id:'s6',title:'スポーツ総合',emoji:'&#129351;',diff:2,
     questions:[
       {q:'ラグビーでトライは何点？',c:['3点','4点','5点','7点'],a:2,e:'トライは5点。その後のコンバージョンキック成功でさらに2点が加算されます。'},
       {q:'ゴルフでパーより1打少ない場合を何という？',c:['イーグル','バーディー','パー','ボギー'],a:1,e:'バーディーはパー（基準打数）より1打少ない状態。2打少ないとイーグルです。'},
@@ -263,7 +263,7 @@ const STAGES = [
     ]
   },
   {
-    id:'s7',title:'ゴルフ',emoji:'?',diff:2,
+    id:'s7',title:'ゴルフ',emoji:'&#9971;',diff:2,
     questions:[
       {q:'ゴルフのメジャー大会は全部で何大会？',c:['3大会','4大会','5大会','6大会'],a:1,e:'マスターズ・全米オープン・全英オープン・全米プロの4大会がメジャーです。'},
       {q:'ゴルフでホールインワンとは？',c:['1ホールを1打で終えること','バーディーを3連続すること','パーで18ホール回ること','2打以内でカップに入れること'],a:0,e:'ティーショット1打でボールがカップに入ることをホールインワンといいます。'},
@@ -278,7 +278,7 @@ const STAGES = [
     ]
   },
   {
-    id:'s8',title:'水泳・競泳',emoji:' ',diff:2,
+    id:'s8',title:'水泳・競泳',emoji:'&#127946;',diff:2,
     questions:[
       {q:'オリンピック競泳の最短距離は？',c:['25m','50m','100m','200m'],a:1,e:'オリンピック競泳の最短種目は50m自由形です。'},
       {q:'背泳ぎで正しい泳ぎ方は？',c:['うつ伏せで泳ぐ','仰向けで泳ぐ','横向きで泳ぐ','水中を潜って泳ぐ'],a:1,e:'背泳ぎは仰向け（上を向いた状態）で泳ぐ唯一の泳法です。'},
@@ -293,7 +293,7 @@ const STAGES = [
     ]
   },
   {
-    id:'s9',title:'格闘技',emoji:' ',diff:3,
+    id:'s9',title:'格闘技',emoji:'&#129354;',diff:3,
     questions:[
       {q:'ボクシングのリングの形は？',c:['円形','三角形','四角形','六角形'],a:2,e:'ボクシングのリングは四角形（正方形）です。「リング」と呼ぶのは歴史的な名残です。'},
       {q:'柔道の最高段位は何段？',c:['8段','9段','10段','12段'],a:2,e:'柔道の最高段位は10段。現在10段保持者は世界に数人しかいません。'},
@@ -308,7 +308,7 @@ const STAGES = [
     ]
   },
   {
-    id:'s10',title:'陸上競技',emoji:' ',diff:3,
+    id:'s10',title:'陸上競技',emoji:'&#127939;',diff:3,
     questions:[
       {q:'陸上100mの世界記録（2024年時点）は？',c:['9秒58','9秒69','9秒72','9秒81'],a:0,e:'ウサイン・ボルトが2009年ベルリン世界陸上で記録した9秒58が世界記録です。'},
       {q:'走り高跳びの跳び方で最も一般的なのは？',c:['はさみ跳び','ベリーロール','背面跳び（フォスベリー式）','前転跳び'],a:2,e:'背面跳び（フォスベリー・フロップ）は1968年に初採用され現在の主流スタイルです。'},
@@ -369,7 +369,7 @@ function renderHome(){
       <div class="stage-name">${s.title}</div>
       <div class="diff-dots">${dots}</div>
       <div class="stage-stars">${[0,1,2].map(d=>`<span class="s-star${d<stars?' lit':''}">★</span>`).join('')}</div>
-      ${!unlocked?'<div class="lock-icon"> </div>':''}
+      ${!unlocked?'<div class="lock-icon">&#128274;</div>':''}
       ${stars>0?'<div class="cleared-badge">CLEAR</div>':''}
     `;
     if(unlocked)card.onclick=()=>startStage(i);
@@ -420,7 +420,7 @@ function selectAnswer(selected){
   });
   document.getElementById('explanation').innerHTML=`
     <div class="explanation ${correct?'ok':'ng'}">
-      <div class="expl-head">${correct?'? 正解！':'? 不正解'}</div>${q.e}
+      <div class="expl-head">${correct?'&#9989; 正解！':'&#10060; 不正解'}</div>${q.e}
     </div>`;
   const nextBtn=document.getElementById('next-btn');
   nextBtn.style.display='block';
@@ -441,7 +441,7 @@ function finishStage(){
   const stars=calcStars(score,total);
   const rate=Math.round(score/total*100);
   saveProgress(stage.id,score,stars);
-  document.getElementById('clear-emoji').textContent=stars===3?' ':stars>=2?' ':' ';
+  document.getElementById('clear-emoji').textContent=stars===3?'&#127881;':stars>=2?'&#127942;':'&#128074;';
   document.getElementById('clear-title').textContent=stars===3?'パーフェクト！':stars>=1?'クリア！':'もう少し！';
   document.getElementById('clear-stage-name').textContent=stage.emoji+' '+stage.title;
   document.getElementById('res-score').textContent=`${score}/${total}`;
